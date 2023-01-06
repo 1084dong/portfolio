@@ -1,3 +1,26 @@
+.d-flex-row{
+    display: flex;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+/********************************************************/
+
 .page {
     height: 100vh;
     display: flex;
@@ -81,4 +104,50 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+.common-background {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.common-content {
+    background-color: #222222;
+    width: 65%;
+    /*height: 40%;*/
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.common-content h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 3em;
+    color: #555555;
+    padding-bottom: 50px;
+}
+
+#col-1 > div:not(#col-1 > div:last-child){
+    margin-right: 20px;
+}
+
+#col-1 > div {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.mypicture {
+    width: 300px;
+}
+
+
+
+
 
