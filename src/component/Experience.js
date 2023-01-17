@@ -2,8 +2,10 @@ import React from 'react';
 
 function Experience(props) {
     return (
-        <div>
-            여기는 experience
+        <div className="common-background">
+            <div className="common-content">
+                <h1>Experience</h1>
+            </div>
         </div>
     );
 }

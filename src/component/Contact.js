@@ -2,8 +2,10 @@ import React from 'react';
 
 function Contact(props) {
     return (
-        <div>
-            여기는 contact
+        <div className="common-background">
+            <div className="common-content">
+                <h1>Contact</h1>
+            </div>
         </div>
     );
 }

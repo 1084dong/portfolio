@@ -5,7 +5,7 @@ function Nav(props) {
     return (
         <div className='nav-btns'>
             <div className="profile">
-                <img src="icons/profile.png"/>
+                <img src="icons/증명사진_이력서.jpg"/>
                 <p>HDJ</p>
             </div>
 
@@ -27,7 +27,7 @@ function Nav(props) {
                 <Link className='link' to="/skill" style={{textDecoration:'none'}}>
                     <li>
                         <img src="icons/skill.png"/>
-                        <p className="btn-text">Skill</p>
+                        <p className="btn-text">Resume</p>
                     </li>
                 </Link>
 
