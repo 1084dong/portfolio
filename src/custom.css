@@ -85,10 +85,13 @@
     justify-content: space-around;
     align-items: center;
 }
-.link:hover {
+.link:hover{
     border-right: 3px solid #ff724c;
 }
-.link li {
+.link:active{
+    border-right: 3px solid #ff724C;
+}
+  .link li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,7 +106,6 @@
     color: white;
 
 }
-
 .ul {
     margin: 0;
     display: flex;
@@ -111,6 +113,7 @@
     flex-direction: column;
     padding: 0;
 }
+
 
 .home {
     height: 100vh;
@@ -173,6 +176,7 @@
 
 .mypicture {
     width: 300px;
+    border: 1px solid #FF724C;
     border-radius: 20px;
 }
 
@@ -234,9 +238,42 @@
     border-left: 2.5px solid #FF724C;
     padding-left: 10px;
 }
+.experience-link img {
+    border: 2px solid #FF724C;
+}
+.Experience-content2 {
+    margin-top: 50px;
+}
+.experience-link img {
+    transition: all 0.2s linear;
+    border-radius: 10px;
+}
+.experience-link:hover img {
+    transform: scale(1.2);
+}
+.goback, .gohome {
+    text-decoration: none;
+    color: #555555;
+    font-size: 1.8em;
+    padding-bottom: 20px;
+}
+.goback:hover, .gohome:hover {
+    color: #FF724C;
+}
+.completion1-content {
+    display: flex;
+}
+.completion1-content-left {
+    width: 100%;
 
-
-
+}
+.completion1-content-left img {
+    border-radius: 10px;
+}
+.completion1-content-right h2 {
+    border-left: 2.5px solid #FF724C;
+    padding-left: 10px;
+}
 
 
 
