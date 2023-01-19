@@ -13,7 +13,7 @@ function Completion2(props) {
 
                 <div className="completion1-content">
                     <div className="completion1-content-left">
-                        <img src="/icons/수료증2큼.png"/>
+                        <img src="icons/수료증2큼.png"/>
                     </div>
 
                 </div>
