@@ -7,7 +7,7 @@ function About(props) {
                 <h1>About Me</h1>
                 <div id="col-1" className="d-flex-row justify-content-around">
                     <div className="about-1">
-                        <img className="mypicture" src="/icons/증명사진_이력서.jpg"/>
+                        <img className="mypicture" src="icons/증명사진_이력서.jpg"/>
                     </div>
                     <div className="about-2">
                         <p><p className="about-2-title">호기심 많고 기록 하는것을 좋아하는 신입 개발자 황동재입니다.</p> <br/>프론트엔드 개발자를 희망하고 있습니다.<br/>배우는 것을 좋아하고 새로운 도전에 대한 두려움이 없습니다.

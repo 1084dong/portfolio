@@ -9,7 +9,7 @@ function Contact(props) {
                     <ul className="contact d-flex-row justify-content-around" style={{listStyle:"none"}}>
                         <li>
                             <div className="d-flex-row">
-                                <img src="/icons/contact_location.png"/>
+                                <img src="icons/contact_location.png"/>
                                 <h2>Address</h2>
                             </div>
                             <p>광주광역시 남구 진월동</p>
@@ -17,7 +17,7 @@ function Contact(props) {
 
                         <li>
                             <div className="d-flex-row">
-                                <img src="/icons/contact_mail.png"/>
+                                <img src="icons/contact_mail.png"/>
                                 <h2>E-mail</h2>
                             </div>
                             <p>1084dong @ gmail.com</p>
@@ -27,7 +27,7 @@ function Contact(props) {
 
                         <li>
                             <div className="d-flex-row">
-                                <img src="/icons/contact_call.png"/>
+                                <img src="icons/contact_call.png"/>
                                 <h2>Cell-Phone</h2>
                             </div>
                             <p>010 - 2628 - 1084</p>
@@ -35,7 +35,7 @@ function Contact(props) {
 
                         <li>
                             <div className="d-flex-row">
-                                <img src="/icons/contact_home.png"/>
+                                <img src="icons/contact_home.png"/>
                                 <h2>Git</h2>
                             </div>
                             <p>www.github.com/1084dong</p>
