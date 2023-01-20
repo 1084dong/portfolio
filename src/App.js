@@ -12,6 +12,7 @@ import Completion3 from "./component/Completion3";
 import Completion4 from "./component/Completion4";
 import Completion5 from "./component/Completion5";
 import Completion6 from "./component/Completion6";
+import Certificate from "./component/Certificate";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/skill' element={<Skill/>}/>
         <Route exact path='/experience' element={<Experience/>}/>
         <Route exact path='/contact' element={<Contact/>}/>
+        <Route exact path='/certificate' element={<Certificate/>}/>
 
           <Route exact path='/completion1' element={<Completion1/>}/>
           <Route exact path='/completion2' element={<Completion2/>}/>

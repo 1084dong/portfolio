@@ -38,12 +38,20 @@ function Nav(props) {
                     </li>
                 </Link>
 
-                <Link className='link' to="/contact" style={{textDecoration:'none'}}>
+                <Link className='link certificate-img' to="/certificate" style={{textDecoration:'none'}}>
+                    <li>
+                        <img src="icons/certificate.png"/>
+                        <p className="btn-text">Certificate</p>
+                    </li>
+                </Link>
+
+                <Link className='link contact-img' to="/contact" style={{textDecoration:'none'}}>
                     <li>
                         <img src="icons/contact.png"/>
                         <p className="btn-text">Contact</p>
                     </li>
                 </Link>
+
             </ul>
         </div>
     );
