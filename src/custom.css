@@ -259,13 +259,12 @@
 }
 .experience-link img {
     border: 2px solid #FF724C;
+    width: 200px;
+    transition: all 0.2s linear;
+    border-radius: 10px;
 }
 .Experience-content2 {
     margin-top: 50px;
-}
-.experience-link img {
-    transition: all 0.2s linear;
-    border-radius: 10px;
 }
 .experience-link:hover img {
     transform: scale(1.2);
@@ -284,14 +283,36 @@
 }
 .completion1-content-left {
     width: 100%;
-
+}
+.completion1-content-left h2{
+    border-left: 2px solid #FF724C;
 }
 .completion1-content-left img {
     border-radius: 10px;
 }
+.completion1-content-right {
+    width: 100%;
+}
+.completion1-content-right a {
+    text-decoration: none;
+    margin-top: 30px;
+    color: white;
+}
+.complete-a:link, complete-a:visited {
+    background-color: #FF724C;
+    color: maroon;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+.complete-a:hover, complete-a:active {
+    background-color: #FFA500;
+}
 .completion1-content-right h2 {
     border-left: 2.5px solid #FF724C;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 .certificate-content1 {
     margin-bottom: 40px;

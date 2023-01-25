@@ -12,6 +12,10 @@ import Completion3 from "./component/Completion3";
 import Completion4 from "./component/Completion4";
 import Completion5 from "./component/Completion5";
 import Completion6 from "./component/Completion6";
+
+import Completion7 from "./component/Completion7";
+import Completion8 from "./component/Completion8";
+
 import Certificate from "./component/Certificate";
 
 function App() {
@@ -32,6 +36,8 @@ function App() {
           <Route exact path='/completion4' element={<Completion4/>}/>
           <Route exact path='/completion5' element={<Completion5/>}/>
           <Route exact path='/completion6' element={<Completion6/>}/>
+          <Route exact path='/completion7' element={<Completion7/>}/>
+          <Route exact path='/completion8' element={<Completion8/>}/>
       </Routes>
     </div>
   );
