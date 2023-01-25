@@ -9,18 +9,18 @@ function Completion8(props) {
                 <Link className="goback" to="/Experience"> ◁ </Link>
                 <Link className="gohome" to="/"> X </Link>
 
-                <h2 style={{color:"#EDEDED"}}>Completion 7</h2>
+                <h2 style={{color:"#EDEDED"}}>Completion 8</h2>
 
                 <div className="completion1-content justify-content-around">
                     <div className="completion1-content-left">
-                        <img src="icons/캡스톤_큰.png"/>
+                        <img src="icons/포폴_큰.png"/>
                     </div>
                     <div className="completion1-content-right">
-                        <h2>캡스톤디자인 TTS를 활용한 파일리딩프로그램</h2>
-                        <p>2022년 1학기 캡스톤디자인 TTS 기술을 활용하여</p>
-                        <p>파일 리딩 프로그램을 만드는 프로젝트의 전체적인</p>
-                        <p>레이아웃을 담당하였습니다.</p>
-                        <a className="complete-a" href="https://github.com/1084dong/2022_1_capstone" target="_blank">Go GitHub!</a>
+                        <h2 className="complete-h2">포트폴리오</h2>
+                        <p>node.js 와 React 를 활용해 포트폴리오를</p>
+                        <p>만들어 봤습니다. 만들면서 스스로 공부도 되었고</p>
+                        <p>마크업 실력 향상에도 도움이 되었습니다.</p>
+                        <a className="complete-a" href="https://github.com/1084dong/portfolio" target="_blank">Go GitHub!</a>
                     </div>
                 </div>
 

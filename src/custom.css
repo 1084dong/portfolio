@@ -307,6 +307,9 @@
     display: inline-block;
     border-radius: 10px;
 }
+.complete-h2 {
+    text-align: center;
+}
 .complete-a:hover, complete-a:active {
     background-color: #FFA500;
 }

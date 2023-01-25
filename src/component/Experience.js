@@ -33,7 +33,7 @@ function Experience(props) {
                     <Link className="experience-link" to="/completion7" style={{textDecoration:'none'}}>
                         <img src="icons/캡스톤.png"/>
                     </Link>
-                    <Link className="experience-link" to="/completion5" style={{textDecoration:'none'}}>
+                    <Link className="experience-link" to="/completion8" style={{textDecoration:'none'}}>
                         <img src="icons/포폴.png"/>
                     </Link>
                 </div>
