@@ -33,13 +33,7 @@ function Contact(props) {
                             <p>010 - 2628 - 1084</p>
                         </li>
 
-                        <li>
-                            <div className="d-flex-row">
-                                <img src="icons/contact_home.png"/>
-                                <h2>Git</h2>
-                            </div>
-                            <p>www.github.com/1084dong</p>
-                        </li>
+
 
                     </ul>
                 </div>
